@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 10px 0;
+  gap: 20px 0;
   &-container {
     background-color: #d4d6dc;
     width: 100%;
@@ -10,7 +10,7 @@
     overflow: auto;
     padding: 10px 0;
     position: absolute;
-    top: 34.5px;
+    top: 76px;
     left: 0;
   }
 }
@@ -19,16 +19,16 @@
   background-color: #ecebeb;
   display: flex;
   justify-content: space-around;
-  padding: 2px 0 4px;
+  padding: 4px 0 6px;
   & .info-item {
     margin: 0;
   }
   &-item {
-    font-size: 6px;
+    font-size: 12.5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2px 0;
+    gap: 3px 0;
     & b {
       font-weight: 700;
     }
@@ -38,15 +38,16 @@
 .load-more {
   border: none;
   border-radius: 5px;
-  padding: 2px 5px;
+  padding: 3px 28px;
   background-color: #1b81d4;
-  padding: 3px 5px;
   display: block;
   font-weight: 500;
+  line-height: 2;
+  font-size: 25px;
   color: #fff;
   display: block;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 12px;
   &:focus,
   &:hover {
     color: #d4d6dc;
@@ -58,7 +59,7 @@
 }
 
 .photo-card {
-  width: 150px;
+  width: 295px;
   background-color: #ecebeb;
   &:focus,
   &:hover {
@@ -69,7 +70,10 @@
 
 #search-box {
   border: none;
-  line-height: 0;
+  line-height: 2;
+  font-size: 25px;
+  font-weight: 500;
+  width: 280px;
   &:focus {
     outline: none;
   }
@@ -78,7 +82,7 @@
 .search-box-container {
   background-color: #1b81d4;
   display: inline-block;
-  padding: 5px 0;
+  padding: 12px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -88,12 +92,12 @@
 
 .search-box__icon {
   background-color: #ffd0db;
+  margin: 4px 0 0;
 }
 
 .search-form {
   display: flex;
   justify-content: center;
-  padding: 2px 0;
 }
 
 .submit-button {

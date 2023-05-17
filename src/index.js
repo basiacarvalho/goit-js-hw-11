@@ -93,7 +93,7 @@ function renderPhotos(searchResult) {
       return `
       <div class="photo-card">
   <a href="${photo.largeImageURL}">
-     <img src="${photo.webformatURL}" alt="${photo.tags}" loading="lazy" width="150" height="100" />
+     <img src="${photo.webformatURL}" alt="${photo.tags}" loading="lazy" width="295" height="190" />
   </a>
   <div class="info">
     <p class="info-item">
