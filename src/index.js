@@ -35,7 +35,7 @@ async function processGallerySearch(event) {
   }
   event.preventDefault();
   const response = await fetchGallery();
-  if (isSubmit) {
+  if (isSubmit && response.data.totalHits > 0) {
     Notify.success(`Hooray! We found ${response.data.totalHits} images.`);
   }
   if (isLastPage(response.data.totalHits)) {
@@ -45,8 +45,8 @@ async function processGallerySearch(event) {
     );
   } else {
     loadButton.classList.remove('hidden');
-    renderPhotos(response.data.hits);
   }
+  renderPhotos(response.data.hits);
 }
 
 async function fetchGallery() {
