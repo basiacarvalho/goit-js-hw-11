@@ -24,7 +24,7 @@ An image search app with lazy loading.
 ### Technology stack
 
 - HTML
-- CSS
+- SCSS
 - JavaScript
 
 ### Links
