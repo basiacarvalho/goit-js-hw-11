@@ -56,7 +56,6 @@ In the project directory, you can run:
 
 #### `npm run start`
 
-Runs the app in the development mode. Open
-[http://localhost:1234](http://localhost:1234) to view it in your browser.
+Runs the app in the development mode.
 
 The page will reload when you make changes.
